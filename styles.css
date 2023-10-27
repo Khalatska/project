@@ -92,6 +92,7 @@ width: 291px;
 
     .testimonial-list { display: flex;
         gap: 32px;
+        
     }
 
     .review-tab { display: block;}
@@ -110,6 +111,7 @@ width: 291px;
     .testimonial-item-text {
         font-size: 16px;
         width: 300px;
+         
     }
 
     .testimonials {
@@ -137,11 +139,30 @@ width: 291px;
 
     .testimonial-item {
         width: calc((100% - 52px) / 3);
+        
     }
 
     .testimonial-item-text {
-        width: 360px;
-    }
+        width: 306px;
+        margin: 0 auto;
+        
     
 }
 
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .testimonial-item-text {
+        width: 360px;   
+}
+}
+
+
+
+
+
+
+
+ 
